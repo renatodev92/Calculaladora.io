@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Shizuru&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.result {
+    width: 87%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+    text-align: right;
+}
+.container {
+    background-color: #673ab7b3;
+    height:100vh;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: 'Shizuru', cursive;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+
+.calculator {
+    margin-top: px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: 0;
+    color:blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    margin: 2px;
+}
+
+button:hover{
+    color: black;
+}
+
+.btn{
+    height: 106px;
+}
+
+.btn1 {
+    width: 106px;
+}
+
+
