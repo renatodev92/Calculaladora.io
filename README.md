@@ -1,2 +1,2 @@
 # Smart-Calculator.io
- Calculator project made with the technologies: javascript, css, html and bootstrap.
+ Calculator project made with the technologies: javascript, css and html.
