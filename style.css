@@ -4,18 +4,8 @@
 * {
     margin: 0;
     padding: 0;
+}
 
-}
-.result {
-    width: 87%;
-    border-radius: 10px;
-    margin: 0 auto;
-    padding: 10px;
-    color: blueviolet;
-    background-color: white;
-    font-weight: bold;
-    text-align: right;
-}
 .container {
     background-color: #673ab7b3;
     height:100vh;
@@ -25,14 +15,12 @@
     font-family: 'Shizuru', cursive;
 }
 
-h2 {
-    margin-bottom: 10px;
-    text-align:left;
+header {
+    min-height: 80px;
 }
 
-
 .calculator {
-    margin-top: px;
+    margin-top: 50px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
     top: 35%;
@@ -42,6 +30,26 @@ h2 {
     border-radius: 15px;
     padding: 20px;
 }
+.result {
+    width: 87%;
+    border-radius: 10px;
+    min-height: 25px;
+    margin: 0 auto;
+    padding: 10px;
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+
+
 
 table {
     margin-top: 10px;
